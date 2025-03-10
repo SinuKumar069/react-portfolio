@@ -1,14 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       screens: {
-        sm: "640px", // Small screens
-        md: "768px", // Medium screens
+        sm: "640px",
+        md: "768px",
       },
     },
   },
@@ -21,8 +18,5 @@ export default {
   animation: {
     "slide-down": "slideDown 0.5s ease-out forwards",
   },
-  plugins: [
-    require('tailwind-scrollbar-hide')
-  ]
-}
-
+  plugins: [require("tailwind-scrollbar-hide")],
+};

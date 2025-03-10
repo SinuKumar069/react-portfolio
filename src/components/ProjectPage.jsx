@@ -67,7 +67,7 @@ const ProjectPage = () => {
               key={index}
               className="flex flex-col items-center text-center bg-blue-800/10 shadow-lg rounded-xl p-6 border border-gray-700 transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
             >
-              {/* Project Image */}
+              
               <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mb-4 shadow-lg">
                 <img
                   src={project.image}
@@ -76,15 +76,12 @@ const ProjectPage = () => {
                 />
               </div>
 
-              {/* Project Title */}
               <h2 className="text-xl font-semibold mb-2">{project.title}</h2>
 
-              {/* Project Description */}
               <p className="text-gray-400 flex-grow mb-4">
                 {project.description}
               </p>
 
-              {/* Links */}
               <div className="mt-auto flex gap-4">
                 <a
                   href={project.githubLink}

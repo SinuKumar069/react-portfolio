@@ -11,10 +11,10 @@ const Skills = () => {
         scrollContainerRef.current.contains(e.target) &&
         !isHovered
       ) {
-        // Prevent default vertical scrolling only within the scroll container
+        
         e.preventDefault();
         scrollContainerRef.current.scrollBy({
-          left: e.deltaY, // Use the vertical scroll delta for horizontal scrolling
+          left: e.deltaY, 
           behavior: "smooth",
         });
       }
@@ -36,24 +36,23 @@ const Skills = () => {
     <div
     id="skills"
     className="relative w-full py-12 flex flex-row">
-      {/* Heading */}
+      
       <div className="px-8 text-center md:text-left mt-32">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-thin text-white tracking-tight ">
           Skills
         </h1>
       </div>
 
-      {/* Scrollable Container */}
       <div className="relative w-full overflow-hidden">
         <div
           ref={scrollContainerRef}
           className={`scroll-smooth overflow-x-auto flex gap-4 px-4 md:px-8 ${
             isHovered ? "animate-none" : "animate-scroll"
           }`}
-          onMouseEnter={() => setIsHovered(true)} // Stop animation on hover
-          onMouseLeave={() => setIsHovered(false)} // Resume animation on leave
+          onMouseEnter={() => setIsHovered(true)} 
+          onMouseLeave={() => setIsHovered(false)} 
         >
-          {[ // Skills Array
+          {[ 
             {
               title: "JavaScript",
               bg: "bg-gradient-to-br from-gray-500 to-yellow-500",

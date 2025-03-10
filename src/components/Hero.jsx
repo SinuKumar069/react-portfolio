@@ -18,7 +18,7 @@ const Hero = () => {
       id="home"
       className="flex flex-col-reverse lg:flex-row justify-center items-center min-h-screen px-4 sm:px-6 lg:px-10 py-8 sm:py-12 lg:py-16 space-y-8 lg:space-y-0"
     >
-      {/* Content Section */}
+
       <div className="w-full lg:w-1/2 text-center lg:text-left flex flex-col items-center lg:items-start lg:pl-12">
         <motion.h1
           variants={container(0)}
@@ -70,7 +70,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Image Section */}
       <motion.div
         initial={{ x: 100, opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}

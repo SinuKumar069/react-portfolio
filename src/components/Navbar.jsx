@@ -11,10 +11,8 @@ const Navbar = () => {
   return (
     <nav className="fixed top-4 left-0 right-0 z-50 flex justify-center">
       <div className="flex items-center justify-between bg-gray-900 text-white rounded-full shadow-lg px-3 py-2 border border-gray-700 md:flex md:justify-center md:space-x-6 md:px-8 md:py-4">
-        {/* Mobile: Name */}
         <div className="font-bold text-base md:hidden mr-20">Sinu Kumar</div>
 
-        {/* Links for larger screens */}
         <div className="hidden md:flex items-center space-x-6">
           <a
             href="#home"
@@ -76,7 +74,6 @@ const Navbar = () => {
           </a>
         </div>
 
-        {/* Hamburger Icon for small screens */}
         <button
           className="text-white md:hidden"
           onClick={toggleMenu}
@@ -99,7 +96,6 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Hamburger Menu for Mobile */}
       {isMenuOpen && (
         <div className="fixed inset-0 bg-gray-900 bg-opacity-95 z-40 flex flex-col items-center justify-center space-y-4 p-6 md:hidden">
           <button

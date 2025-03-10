@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const HamburgerMenu = ({ closeMenu }) => {
   useEffect(() => {
-    // Prevent background scrolling when the menu is open
+    
     document.body.style.overflow = "hidden";
     return () => {
       document.body.style.overflow = "auto";
@@ -45,13 +45,12 @@ const HamburgerMenu = ({ closeMenu }) => {
 
   return (
     <div className="fixed top-0 left-0 w-full h-full z-50">
-      {/* Blurred Background */}
+      
       <div
         className="absolute inset-0 bg-black bg-opacity-50 backdrop-blur-sm"
         onClick={closeMenu}
       ></div>
 
-      {/* Sliding Menu */}
       <motion.div
         initial="hidden"
         animate="visible"
