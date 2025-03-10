@@ -19,7 +19,7 @@ const Technologies = () => {
           <div className="flex flex-col items-start pl-8">
             <span className="flex items-center mt-4">
               <img
-                src="./src/images/Appstore.png"
+                src="/public/images/Appstore.png"
                 alt="App Store Logo"
                 className="w-8 h-6 mr-3"
               />
@@ -27,7 +27,7 @@ const Technologies = () => {
             </span>
             <span className="flex items-center mt-4">
               <img
-                src="./src/images/playstore.png"
+                src="/public/images/playstore.png"
                 alt="Play Store Logo"
                 className="w-6 h-6 mr-2"
               />
@@ -41,14 +41,14 @@ const Technologies = () => {
           <h3 className="text-center mt-3 text-sm">Front-end Tools</h3>
           <div className="flex flex-wrap flex-col pb-2 gap-4 justify-start pl-8">
             {[
-              { name: "HTML", img: "./src/images/html.png" },
-              { name: "Tailwind CSS", img: "./src/images/tailwind.png" },
-              { name: "JavaScript", img: "./src/images/javaScript.png" },
-              { name: "React", img: "./src/images/reactlogo.png" },
-              { name: "Next.js", img: "./src/images/next.jpg" },
-              { name: "Bootstrap", img: "./src/images/bootstrap.png" },
-              { name: "Vite", img: "./src/images/vite.png" },
-              { name: "Figma", img: "./src/images/figma.png" },
+              { name: "HTML", img: "/public/images/html.png" },
+              { name: "Tailwind CSS", img: "/public/images/tailwind.png" },
+              { name: "JavaScript", img: "/public/images/javaScript.png" },
+              { name: "React", img: "/public/images/reactlogo.png" },
+              { name: "Next.js", img: "/public/images/next.jpg" },
+              { name: "Bootstrap", img: "/public/images/bootstrap.png" },
+              { name: "Vite", img: "/public/images/vite.png" },
+              { name: "Figma", img: "/public/images/figma.png" },
             ].map((tool, index) => (
               <span key={index} className="flex items-center mt-4">
                 <img src={tool.img} alt={`${tool.name} Logo`} className="w-6 h-6 mr-2" />
@@ -63,9 +63,9 @@ const Technologies = () => {
           <h3 className="text-center mt-3 text-sm">Languages</h3>
           <div className="flex flex-col items-start pl-8">
             {[
-              { name: "JavaScript", img: "./src/images/javaScript.png" },
-              { name: "C++", img: "./src/images/C++.png" },
-              { name: "TypeScript", img: "./src/images/ts.png" },
+              { name: "JavaScript", img: "/public/images/javaScript.png" },
+              { name: "C++", img: "/public/images/C++.png" },
+              { name: "TypeScript", img: "/public/images/ts.png" },
             ].map((lang, index) => (
               <span key={index} className="flex items-center mt-4">
                 <img src={lang.img} alt={`${lang.name} Logo`} className="w-6 h-6 mr-2" />
@@ -80,8 +80,8 @@ const Technologies = () => {
           <h3 className="text-center mt-3 text-sm">Back-end</h3>
           <div className="flex flex-col items-start pl-8">
             {[
-              { name: "Node.js", img: "./src/images/node.png" },
-              { name: "Prisma", img: "./src/images/prisma.png" },
+              { name: "Node.js", img: "/public/images/node.png" },
+              { name: "Prisma", img: "/public/images/prisma.png" },
             ].map((backend, index) => (
               <span key={index} className="flex items-center mt-4">
                 <img

@@ -56,22 +56,22 @@ const Skills = () => {
             {
               title: "JavaScript",
               bg: "bg-gradient-to-br from-gray-500 to-yellow-500",
-              icon: "../src/images/JavaScript.png",
+              icon: "/public/images/JavaScript.png",
             },
             {
               title: "React",
               bg: "bg-gradient-to-br from-blue-300 to-blue-800",
-              icon: "../src/images/reactlogo.png",
+              icon: "/public/images/reactlogo.png",
             },
             {
               title: "Next.js",
               bg: "bg-gradient-to-br from-gray-700 to-black",
-              icon: "../src/images/next.jpg",
+              icon: "/public/images/next.jpg",
             },
             {
               title: "Tailwind CSS",
               bg: "bg-gradient-to-br from-gray-900 to-teal-600",
-              icon: "../src/images/tailwind.png",
+              icon: "/public/images/tailwind.png",
             },
           ].map((skill, index) => (
             <div

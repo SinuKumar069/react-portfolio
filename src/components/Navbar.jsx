@@ -56,7 +56,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="./src/images/linkdin.png"
+              src="\public\images\linkdin.png"
               alt="linkedin"
               className="w-6 h-6 filter invert"
             />
@@ -67,7 +67,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="./src/images/github.png"
+              src="\public\images\github.png"
               alt="github"
               className="w-6 h-6 filter invert"
             />

@@ -22,7 +22,7 @@ const GetInTouch = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="./src/images/github.png"
+                src="/public/images/github.png"
                 alt="GitHub"
                 className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 filter invert"
               />
@@ -33,7 +33,7 @@ const GetInTouch = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="./src/images/linkdin.png"
+                src="/public/images/linkdin.png"
                 alt="LinkedIn"
                 className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 filter invert"
               />
@@ -44,7 +44,7 @@ const GetInTouch = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="./src/images/mail.png"
+                src="/public/images/mail.png"
                 alt="Mail"
                 className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 filter invert"
               />
