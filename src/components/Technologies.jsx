@@ -49,32 +49,32 @@ const Technologies = () => {
         </div>
 
         {/* Card 2 */}
-        <div className="w-[80vw] sm:w-[40vw] md:w-[30vh] pb-2 bg-transparent border border-gray-600 rounded-3xl shadow-lg text-white">
-          <h3 className="text-center mt-3 text-sm">Front-end Tools</h3>
-          <div className="flex flex-wrap flex-col pb-2 gap-4 justify-start pl-8">
-            {[
-              { name: "HTML", img: "/public/images/html.png" },
-              { name: "Tailwind CSS", img: "/public/images/tailwind.png" },
-              { name: "JavaScript", img: "/public/images/javaScript.png" },
-              { name: "React", img: "/public/images/reactlogo.png" },
-              { name: "Next.js", img: "/public/images/next.jpg" },
-              { name: "Bootstrap", img: "/public/images/bootstrap.png" },
-              { name: "Vite", img: "/public/images/vite.png" },
-              { name: "Figma", img: "/public/images/figma.png" },
-            ].map((tool, index) => (
-              <span key={index} className="flex items-center mt-4">
-                <img
-                  src={tool.img.src}
-                  alt={`${tool.name} Logo`}
-                  className="w-6 h-6 mr-2"
-                />
-                {tool.name}
-              </span>
-            ))}
+          <div className="w-[80vw] sm:w-[40vw] md:w-[30vh] pb-2 bg-transparent border border-gray-600 rounded-3xl shadow-lg text-white">
+            <h3 className="text-center mt-3 text-sm">Front-end Tools</h3>
+            <div className="flex flex-wrap flex-col pb-2 gap-4 justify-start pl-8">
+              {[
+                { name: "HTML", img: html },
+                { name: "Tailwind CSS", img: tailwind },
+                { name: "JavaScript", img: javaScript },
+                { name: "React", img: reactLogo },
+                { name: "Next.js", img: next },
+                { name: "Bootstrap", img: bootStrap },
+                { name: "Vite", img: vite },
+                { name: "Figma", img: figma },
+              ].map((tool, index) => (
+                <span key={index} className="flex items-center mt-4">
+            <img
+              src={tool.img}
+              alt={`${tool.name} Logo`}
+              className="w-6 h-6 mr-2"
+            />
+            {tool.name}
+                </span>
+              ))}
+            </div>
           </div>
-        </div>
 
-        {/* Card 3 */}
+          {/* Card 3 */}
         <div className="w-[80vw] sm:w-[40vw] md:w-[30vh] h-[25vh] bg-transparent border border-gray-600 rounded-3xl shadow-lg text-white">
           <h3 className="text-center mt-3 text-sm">Languages</h3>
           <div className="flex flex-col items-start pl-8">
