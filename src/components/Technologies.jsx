@@ -1,4 +1,14 @@
 import React from "react";
+import appStore from "../../public/images/Appstore.png";
+import playStore from "../../public/images/playstore.png";
+import html from "../../public/images/html.png";
+import tailwind from "../../public/images/tailwind.png";
+import javaScript from "../../public/images/javaScript.png";
+import reactLogo from "../../public/images/reactlogo.png";
+import next from "../../public/images/next.jpg";
+import bootStrap from "../../public/images/bootstrap.png";
+import vite from "../../public/images/vite.png";
+import figma from "../../public/images/figma.png";
 
 const Technologies = () => {
   return (
@@ -15,11 +25,13 @@ const Technologies = () => {
       <div className="flex flex-wrap justify-center gap-8 mt-8">
         {/* Card 1 */}
         <div className="w-[80vw] sm:w-[40vw] md:w-[30vh] h-[19vh] bg-transparent border border-gray-600 rounded-3xl shadow-lg text-white">
-          <h3 className="text-center mt-3 text-sm">Publication in both stores</h3>
+          <h3 className="text-center mt-3 text-sm">
+            Publication in both stores
+          </h3>
           <div className="flex flex-col items-start pl-8">
             <span className="flex items-center mt-4">
               <img
-                src="/public/images/Appstore.png"
+                src={appStore}
                 alt="App Store Logo"
                 className="w-8 h-6 mr-3"
               />
@@ -27,7 +39,7 @@ const Technologies = () => {
             </span>
             <span className="flex items-center mt-4">
               <img
-                src="/public/images/playstore.png"
+                src={playStore}
                 alt="Play Store Logo"
                 className="w-6 h-6 mr-2"
               />
@@ -51,7 +63,11 @@ const Technologies = () => {
               { name: "Figma", img: "/public/images/figma.png" },
             ].map((tool, index) => (
               <span key={index} className="flex items-center mt-4">
-                <img src={tool.img} alt={`${tool.name} Logo`} className="w-6 h-6 mr-2" />
+                <img
+                  src={tool.img.src}
+                  alt={`${tool.name} Logo`}
+                  className="w-6 h-6 mr-2"
+                />
                 {tool.name}
               </span>
             ))}
@@ -68,7 +84,11 @@ const Technologies = () => {
               { name: "TypeScript", img: "/public/images/ts.png" },
             ].map((lang, index) => (
               <span key={index} className="flex items-center mt-4">
-                <img src={lang.img} alt={`${lang.name} Logo`} className="w-6 h-6 mr-2" />
+                <img
+                  src={lang.img}
+                  alt={`${lang.name} Logo`}
+                  className="w-6 h-6 mr-2"
+                />
                 {lang.name}
               </span>
             ))}

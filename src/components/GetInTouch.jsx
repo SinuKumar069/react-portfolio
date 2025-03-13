@@ -1,4 +1,7 @@
 import React from "react";
+import github from "../../public/images/github.png";
+import linkedin from "../../public/images/linkdin.png";
+import mail from "../../public/images/mail.png";
 
 const GetInTouch = () => {
   return (
@@ -22,7 +25,7 @@ const GetInTouch = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="/public/images/github.png"
+                src={github}
                 alt="GitHub"
                 className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 filter invert"
               />
@@ -33,7 +36,7 @@ const GetInTouch = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="/public/images/linkdin.png"
+                src={linkedin}
                 alt="LinkedIn"
                 className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 filter invert"
               />
@@ -44,7 +47,7 @@ const GetInTouch = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="/public/images/mail.png"
+                src={mail}
                 alt="Mail"
                 className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 filter invert"
               />
