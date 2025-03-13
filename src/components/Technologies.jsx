@@ -3,7 +3,7 @@ import appStore from "../../public/images/Appstore.png";
 import playStore from "../../public/images/playstore.png";
 import html from "../../public/images/html.png";
 import tailwind from "../../public/images/tailwind.png";
-import javaScript from "../../public/images/javaScript.png";
+import javaScript from "../../public/images/JavaScript.png";
 import reactLogo from "../../public/images/reactlogo.png";
 import next from "../../public/images/next.jpg";
 import bootStrap from "../../public/images/bootstrap.png";
