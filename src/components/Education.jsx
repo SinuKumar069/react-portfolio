@@ -3,42 +3,37 @@ import { FaGraduationCap as GraduationCap, FaCalendarAlt as Calendar, FaMapMarke
 
 const Education = () => {
   const educationData = [
-    {
-      degree: "Bachelor of Technology in Computer Science",
-      university: "Indian Institute of Technology, Delhi",
-      duration: "2019 - 2023",
-      location: "New Delhi, India",
-      highlights: [
-        "CGPA: 8.5/10",
-        "Major in Computer Science Engineering",
-        "Specialized in Machine Learning and Data Structures",
-        "Active member of Coding and Innovation Club",
-      ],
-    },
+    // {
+    //   degree: "Bachelor of Technology in Electronics and Communication Engineering",
+    //   university: "Haldia Institute of Technology, Haldia",
+    //   duration: "2023 - 2027",
+    //   location: "Kolkata, India",
+    //   highlights: [
+    //     "Major in Electronics and Communication Engineering",
+    //     "Web Development and Data Structures",
+    //     "Active member of Coding and Innovation Club",
+    //   ],
+    // },
     {
       degree: "Senior Secondary Education (12th Grade)",
-      school: "Delhi Public School, RK Puram",
-      board: "CBSE",
-      duration: "2017 - 2019",
+      school: "Inter Science College, Hazaribagh",
+      board: "JAC",
+      duration: "201 - 2019",
       location: "New Delhi, India",
       highlights: [
         "Stream: Science (PCM)",
-        "Board Percentage: 95%",
-        "State Rank in Mathematics",
+        "Board Percentage: 79%",
         "Active in School Science Exhibitions",
       ],
     },
     {
       degree: "Secondary Education (10th Grade)",
-      school: "Kendriya Vidyalaya, Central Delhi",
+      school: "BNS DAV Public School, Giridih",
       board: "CBSE",
-      duration: "2016 - 2017",
-      location: "New Delhi, India",
+      duration: "2019 - 2020",
+      location: "Jharkhand, India",
       highlights: [
-        "CGPA: 9.6/10",
-        "Excellent Performance in Mathematics and Science",
-        "School Prefect and National Cadet Corps (NCC) Participant",
-        "Participated in National Mathematics Olympiad",
+        "Percentage: 82.6%",
       ],
     },
   ];

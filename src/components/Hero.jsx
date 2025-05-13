@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import sinuImg from "../assets/images/sinuimg.jpg";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -77,7 +78,7 @@ const Hero = () => {
         className="w-full lg:w-[45%] flex justify-center items-center pt-8 pb-8 sm:pt-12 sm:pb-12 lg:pt-16 lg:pb-16 lg:pr-12"
       >
         <img
-          src="\public\images\sinuimg.jpg"
+          src={sinuImg}
           alt="Sinu Kumar"
           className="object-cover mx-auto rounded-[70%_30%_30%_70%/_60%_40%_60%_40%] w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] lg:w-[300px] lg:h-[300px]"
         />

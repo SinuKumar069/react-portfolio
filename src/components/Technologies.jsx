@@ -1,14 +1,18 @@
 import React from "react";
-import appStore from "../../public/images/Appstore.png";
-import playStore from "../../public/images/playstore.png";
-import html from "../../public/images/html.png";
-import tailwind from "../../public/images/tailwind.png";
-import javaScript from "../../public/images/JavaScript.png";
-import reactLogo from "../../public/images/reactlogo.png";
-import next from "../../public/images/next.jpg";
-import bootStrap from "../../public/images/bootstrap.png";
-import vite from "../../public/images/vite.png";
-import figma from "../../public/images/figma.png";
+import appStore from "../assets/images/appstore.png";
+import playStore from "../assets/images/playstore.png";
+import html from "../assets/images/html.png";
+import tailwind from "../assets/images/tailwind.png";
+import javaScript from "../assets/images/javaScript.png";
+import reactLogo from "../assets/images/reactlogo.png";
+import next from "../assets/images/next.jpg";
+import bootStrap from "../assets/images/bootstrap.png";
+import vite from "../assets/images/vite.png";
+import figma from "../assets/images/figma.png";
+import Cpp from "../assets/images/c++.png";
+import Ts from "../assets/images/ts.png";
+import Node from "../assets/images/node.png";
+
 
 const Technologies = () => {
   return (
@@ -26,7 +30,7 @@ const Technologies = () => {
         {/* Card 1 */}
         <div className="w-[80vw] sm:w-[40vw] md:w-[30vh] h-[19vh] bg-transparent border border-gray-600 rounded-3xl shadow-lg text-white">
           <h3 className="text-center mt-3 text-sm">
-            Publication in both stores
+            Publication 
           </h3>
           <div className="flex flex-col items-start pl-8">
             <span className="flex items-center mt-4">
@@ -79,9 +83,9 @@ const Technologies = () => {
           <h3 className="text-center mt-3 text-sm">Languages</h3>
           <div className="flex flex-col items-start pl-8">
             {[
-              { name: "JavaScript", img: "/public/images/javaScript.png" },
-              { name: "C++", img: "/public/images/C++.png" },
-              { name: "TypeScript", img: "/public/images/ts.png" },
+              { name: "JavaScript", img: javaScript },
+              { name: "C++", img: Cpp },
+              { name: "TypeScript", img: Ts },
             ].map((lang, index) => (
               <span key={index} className="flex items-center mt-4">
                 <img
@@ -100,8 +104,7 @@ const Technologies = () => {
           <h3 className="text-center mt-3 text-sm">Back-end</h3>
           <div className="flex flex-col items-start pl-8">
             {[
-              { name: "Node.js", img: "/public/images/node.png" },
-              { name: "Prisma", img: "/public/images/prisma.png" },
+              { name: "Node.js", img: Node },
             ].map((backend, index) => (
               <span key={index} className="flex items-center mt-4">
                 <img

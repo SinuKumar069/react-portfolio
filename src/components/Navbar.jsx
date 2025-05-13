@@ -1,5 +1,7 @@
 import { useState } from "react";
 // import HamburgerMenu from "./HamburgerMenu";
+import linkedinImg from "../assets/images/linkdin.png";
+import githubImg from "../assets/images/github.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -26,12 +28,12 @@ const Navbar = () => {
           >
             Education
           </a>
-          <a
+          {/* <a
             href="#skills"
             className="text-sm font-medium hover:text-blue-400 transition-colors duration-300"
           >
             Skills
-          </a>
+          </a> */}
           <a
             href="#project"
             className="text-sm font-medium hover:text-blue-400 transition-colors duration-300"
@@ -56,7 +58,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="\public\images\linkdin.png"
+              src={linkedinImg}
               alt="linkedin"
               className="w-6 h-6 filter invert"
             />
@@ -67,7 +69,7 @@ const Navbar = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="\public\images\github.png"
+              src={githubImg}
               alt="github"
               className="w-6 h-6 filter invert"
             />

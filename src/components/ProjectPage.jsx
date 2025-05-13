@@ -30,8 +30,8 @@ const projects = [
     title: "Weather App",
     description:
       "A weather forecasting app that provides real-time weather updates using OpenWeather API.",
-    githubLink: "https://github.com/yourusername/weatherapp",
-    liveLink: "https://weatherapp.com",
+    githubLink: "https://github.com/SinuKumar069/weather_app",
+    liveLink: "https://weather-2z7n981wl-sinu-kumars-projects.vercel.app/",
   },
   {
     image: "/images/project5.png",

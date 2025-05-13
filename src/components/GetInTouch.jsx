@@ -1,7 +1,7 @@
 import React from "react";
-import github from "../../public/images/github.png";
-import linkedin from "../../public/images/linkdin.png";
-import mail from "../../public/images/mail.png";
+import github from "../assets/images/github.png";
+import linkedin from "../assets/images/linkdin.png";
+import mail from "../assets/images/mail.png";
 
 const GetInTouch = () => {
   return (
