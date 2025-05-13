@@ -1,4 +1,4 @@
-import appStore from "../assets/images/Appstore.png";
+import appStore from "../assets/images/appstore.png";
 import playStore from "../assets/images/playstore.png";
 import html from "../assets/images/html.png";
 import tailwind from "../assets/images/tailwind.png";
