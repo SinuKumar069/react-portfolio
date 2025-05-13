@@ -3,17 +3,6 @@ import { FaGraduationCap as GraduationCap, FaCalendarAlt as Calendar, FaMapMarke
 
 const Education = () => {
   const educationData = [
-    // {
-    //   degree: "Bachelor of Technology in Electronics and Communication Engineering",
-    //   university: "Haldia Institute of Technology, Haldia",
-    //   duration: "2023 - 2027",
-    //   location: "Kolkata, India",
-    //   highlights: [
-    //     "Major in Electronics and Communication Engineering",
-    //     "Web Development and Data Structures",
-    //     "Active member of Coding and Innovation Club",
-    //   ],
-    // },
     {
       degree: "Senior Secondary Education (12th Grade)",
       school: "Inter Science College, Hazaribagh",

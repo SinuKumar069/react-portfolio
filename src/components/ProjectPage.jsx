@@ -1,4 +1,3 @@
-import React from "react";
 import { FaGithub, FaShareAlt } from "react-icons/fa";
 
 const projects = [
