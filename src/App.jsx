@@ -1,7 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Education from "./components/Education";
-// import Skills from "./components/Skills";
 import Technologies from "./components/Technologies";
 import GetInTouch from "./components/GetInTouch";
 import Footer from "./components/Footer";
@@ -20,8 +19,6 @@ function App() {
       <Hero />
 
       <Education />
-
-      {/* <Skills /> */}
 
       <ProjectPage />
 
