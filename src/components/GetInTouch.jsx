@@ -27,7 +27,7 @@ const GetInTouch = () => {
               <img
                 src={github}
                 alt="GitHub"
-                className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 filter invert"
+                className="w-6 h-6 sm:w-8 sm:h-8 md:w-8 md:h-8 filter invert"
               />
             </a>
             <a
@@ -38,7 +38,7 @@ const GetInTouch = () => {
               <img
                 src={linkedin}
                 alt="LinkedIn"
-                className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 filter invert"
+                className="w-6 h-6 sm:w-8 sm:h-8 md:w-8 md:h-8  filter invert"
               />
             </a>
             <a
@@ -49,7 +49,7 @@ const GetInTouch = () => {
               <img
                 src={mail}
                 alt="Mail"
-                className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 filter invert"
+                className="w-6 h-6 sm:w-8 sm:h-8 md:w-8 md:h-8  filter invert"
               />
             </a>
           </div>
