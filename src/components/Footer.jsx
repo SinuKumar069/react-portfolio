@@ -1,4 +1,6 @@
 import React from 'react';
+import sinuImg from "../assets/images/sinuimg.jpg";
+
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -56,7 +58,7 @@ const Footer = () => {
         {/* Social Icons - Visible on md and larger screens */}
         <div className=" space-x-4 hidden md:flex">
           <a 
-            href="https://linkedin.com/in/yourprofile" 
+            href="https://www.linkedin.com/in/sinu-kumar-6788902a8/" 
             target="_blank" 
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -64,7 +66,7 @@ const Footer = () => {
             <LinkedInIcon />
           </a>
           <a 
-            href="https://github.com/yourusername" 
+            href="https://github.com/SinuKumar069" 
             target="_blank" 
             rel="noopener noreferrer"
             aria-label="GitHub"
